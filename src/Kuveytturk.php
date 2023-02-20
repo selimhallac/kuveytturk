@@ -52,7 +52,7 @@ Class Kuveytturk
             return "$e:";
         }, array_keys($xml->getDocNamespaces())), array(), $response);
         $xml2     = @simplexml_load_string($content2);
-        return $xml2;
+        return json_encode($xml2);
     }
     
     
