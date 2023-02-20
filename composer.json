@@ -1,6 +1,6 @@
 {
     "name": "phpdev/kuveytturk",
-    "description": "KuveytTürk Bank Transactions",
+    "description": "Küveyt Türk Banka Entegrasyonu Hesap Hareketleri",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -13,6 +13,5 @@
             "email": "selimhallac@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {}
 }
