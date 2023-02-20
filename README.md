@@ -8,6 +8,8 @@ composer require phpdev/kuveytturk
 
 ```php
 
+Use Phpdev\Kuveytturk;
+
 $entegrasyon = new Kuveytturk('kullanıcı adı','parola',"müşterinumarası",'var ise hesap kodu örn: 001');
 
 
